@@ -1,0 +1,8 @@
+<form action="/predict" method="post">
+  Energy Consumption: <input type="text" name="energy"><br>
+  AQI: <input type="text" name="aqi"><br>
+  Pollution Level (0/1/2): <input type="text" name="pollution"><br>
+  Sustainability Index (0/1/2): <input type="text" name="sustainability"><br>
+  <button type="submit">Predict</button>
+</form>
+{{ prediction_text }}
